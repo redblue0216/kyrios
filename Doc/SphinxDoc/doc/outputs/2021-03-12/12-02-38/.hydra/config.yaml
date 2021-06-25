@@ -1,0 +1,18 @@
+db:
+  driver: mysql
+  user: omry
+  pass: secret
+algorithm:
+  import_packages:
+  - ray_test
+  function_list:
+  - f1
+  - f2
+  parameters:
+    f1: {}
+    f2: {}
+  result_list:
+  - f1_result
+  - f2_result
+  ray_list:
+  - f2

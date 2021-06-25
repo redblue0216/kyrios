@@ -1,0 +1,13 @@
+# Kyrios
++ 简介
+Kyrios是一款算法应用运行时工具，目前主要提供动态配置，分布式计算和数据抽象层功能，
++ 主要技术
+（1）Ray
+（2）Hydra
+（3）Alluxio
+（4）Networkx
+（5）transtions
++ 安装
+```
+pip install -i http://10.3.110.71:8080 --trusted-host 10.3.110.71 Kyrios
+```

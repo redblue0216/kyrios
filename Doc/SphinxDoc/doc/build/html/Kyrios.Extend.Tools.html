@@ -1,0 +1,810 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="zh-cn" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Kyrios.Extend.Tools package &mdash; Kyrios 0.1 文档</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+        <script src="_static/translations.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Kyrios.Extend.Utils package" href="Kyrios.Extend.Utils.html" />
+    <link rel="prev" title="Kyrios.Extend.Base package" href="Kyrios.Extend.Base.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Kyrios
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">code</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="Kyrios.html">Kyrios package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="Kyrios.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="Kyrios.Controller.html">Kyrios.Controller package</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="Kyrios.Extend.html">Kyrios.Extend package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="Kyrios.Foundation.html">Kyrios.Foundation package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="Kyrios.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kyrios.html#module-Kyrios.test">Kyrios.test module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Kyrios.html#module-Kyrios">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Kyrios</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="modules.html">code</a> &raquo;</li>
+        
+          <li><a href="Kyrios.html">Kyrios package</a> &raquo;</li>
+        
+          <li><a href="Kyrios.Extend.html">Kyrios.Extend package</a> &raquo;</li>
+        
+      <li>Kyrios.Extend.Tools package</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Kyrios.Extend.Tools.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kyrios-extend-tools-package">
+<h1>Kyrios.Extend.Tools package<a class="headerlink" href="#kyrios-extend-tools-package" title="永久链接至标题">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="永久链接至标题">¶</a></h2>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.extend">
+<span id="kyrios-extend-tools-extend-module"></span><h2>Kyrios.Extend.Tools.extend module<a class="headerlink" href="#module-Kyrios.Extend.Tools.extend" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id1">
+<h3>模块介绍<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h3>
+<p>这是一个算法组件基本单元的扩展模块，提供动态方法挂载功能</p>
+<p>设计模式：</p>
+<blockquote>
+<div><p>（1）MethodType</p>
+</div></blockquote>
+<p>关键点：</p>
+<blockquote>
+<div><p>（1）动态方法挂载</p>
+</div></blockquote>
+<p>主要功能：</p>
+<blockquote>
+<div><p>（1）功能扩展</p>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3>使用示例<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h3>
+</div>
+<div class="section" id="id3">
+<h3>类说明<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.extend.ProlongIndirect">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.extend.</code><code class="sig-name descname">ProlongIndirect</code><a class="headerlink" href="#Kyrios.Extend.Tools.extend.ProlongIndirect" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个扩展类的间接虚类</p>
+</div></blockquote>
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.extend.ProlongIndirect.Prolong">
+<code class="sig-name descname">Prolong</code><em class="property"> = &lt;Kyrios.Extend.Tools.extend.Prolongdirect object&gt;</em><a class="headerlink" href="#Kyrios.Extend.Tools.extend.ProlongIndirect.Prolong" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.extend.Prolongdirect">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.extend.</code><code class="sig-name descname">Prolongdirect</code><a class="headerlink" href="#Kyrios.Extend.Tools.extend.Prolongdirect" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个动态添加方法的扩展类，主要功能包括为实例、类添加普通方法，静态方法，类方法，</p>
+<p>主要采用的技术有MethodType</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.extend.Prolongdirect.add_dynamic_method">
+<code class="sig-name descname">add_dynamic_method</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">function</span></em>, <em class="sig-param"><span class="n">function_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.extend.Prolongdirect.add_dynamic_method" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个动态添加功能的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>function (Object): 函数对象
+function_name (str): 函数名称</p>
+</dd>
+<dt>返回：</dt><dd><p>无</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.extend.Prolongdirect.show_function">
+<code class="sig-name descname">show_function</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.extend.Prolongdirect.show_function" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个展示所有函数的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>无</p>
+</dd>
+<dt>返回：</dt><dd><p>functions_str (Dict): 所有函数列表</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.extend.TmpInstance">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.extend.</code><code class="sig-name descname">TmpInstance</code><a class="headerlink" href="#Kyrios.Extend.Tools.extend.TmpInstance" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个临时的用来添加功能的类</p>
+</div></blockquote>
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.extend.TmpInstance.data">
+<code class="sig-name descname">data</code><em class="property"> = {'age': 20, 'sex': 'male_male'}</em><a class="headerlink" href="#Kyrios.Extend.Tools.extend.TmpInstance.data" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.info">
+<span id="kyrios-extend-tools-info-module"></span><h2>Kyrios.Extend.Tools.info module<a class="headerlink" href="#module-Kyrios.Extend.Tools.info" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id4">
+<h3>模块介绍<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h3>
+<p>这是一个算法应用组件的信息类，主要功能是聚合组件信息。</p>
+<blockquote>
+<div><p>功能：</p>
+<blockquote>
+<div><p>（1）聚合组件信息</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="id5">
+<h3>类说明<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.info.Infoprint">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.info.</code><code class="sig-name descname">Infoprint</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.info.Infoprint" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个信息类，主要功能是信息聚合，主要采用技术有描述符协议。</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.info.Infoprint.getName">
+<code class="sig-name descname">getName</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.info.Infoprint.getName" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能:</p>
+<blockquote>
+<div><p>定义一个获取信息类名称的方法</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.info.Infoprint.info_dict">
+<code class="sig-name descname">info_dict</code><a class="headerlink" href="#Kyrios.Extend.Tools.info.Infoprint.info_dict" title="永久链接至目标">¶</a></dt>
+<dd><p>类介绍：</p>
+<blockquote>
+<div><p>这是一个具有检查类型功能的描述符类</p>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.interface">
+<span id="kyrios-extend-tools-interface-module"></span><h2>Kyrios.Extend.Tools.interface module<a class="headerlink" href="#module-Kyrios.Extend.Tools.interface" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id6">
+<h3>模块介绍<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h3>
+<p>这是一个算法应用组件接口类，主要提供适配器功能。</p>
+<p>设计模式：</p>
+<blockquote>
+<div><p>（1）适配器模式</p>
+</div></blockquote>
+<p>关键点：</p>
+<blockquote>
+<div><p>（1）灵活接入其他程序</p>
+</div></blockquote>
+<p>主要功能：</p>
+<blockquote>
+<div><p>（1）适配各种程序</p>
+</div></blockquote>
+</div>
+<div class="section" id="id7">
+<h3>使用示例<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h3>
+</div>
+<div class="section" id="id8">
+<h3>类说明<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.interface.Adaptee">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.interface.</code><code class="sig-name descname">Adaptee</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source_target</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adaptee" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个源类，主要用于接受需要转接的源类</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.interface.Adaptee.specialic_function">
+<em class="property">abstract </em><code class="sig-name descname">specialic_function</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adaptee.specialic_function" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个根据传入的源类对象实现的具体方法</p>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.interface.Adapter">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.interface.</code><code class="sig-name descname">Adapter</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source_target</span><span class="o">=</span><span class="default_value">None</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adapter" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#Kyrios.Extend.Tools.interface.Adaptee" title="Kyrios.Extend.Tools.interface.Adaptee"><code class="xref py py-class docutils literal notranslate"><span class="pre">Kyrios.Extend.Tools.interface.Adaptee</span></code></a>, <a class="reference internal" href="#Kyrios.Extend.Tools.interface.Target" title="Kyrios.Extend.Tools.interface.Target"><code class="xref py py-class docutils literal notranslate"><span class="pre">Kyrios.Extend.Tools.interface.Target</span></code></a></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个适配器类</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.interface.Adapter.add_source_target">
+<code class="sig-name descname">add_source_target</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">source_target</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adapter.add_source_target" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个添加源类的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>source_target (Object): 源类</p>
+</dd>
+<dt>返回：</dt><dd><p>无</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.interface.Adapter.function">
+<code class="sig-name descname">function</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">function</span></em>, <em class="sig-param"><span class="n">function_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adapter.function" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个执行具体函数的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>function (Object): 具体函数
+function_name (str): 函数名称</p>
+</dd>
+<dt>返回：</dt><dd><p>无</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.interface.Adapter.function_dict">
+<code class="sig-name descname">function_dict</code><em class="property"> = {'test': &lt;function test&gt;}</em><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adapter.function_dict" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.interface.Adapter.run_interface">
+<code class="sig-name descname">run_interface</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">function_name</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Adapter.run_interface" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个运行接口</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>function_name (str): 函数名称</p>
+</dd>
+<dt>返回：</dt><dd><p>result (Object): 运行结果</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.interface.AdapterIndirect">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.interface.</code><code class="sig-name descname">AdapterIndirect</code><a class="headerlink" href="#Kyrios.Extend.Tools.interface.AdapterIndirect" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个适配器挂载的虚类</p>
+</div></blockquote>
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.interface.AdapterIndirect.Wedge">
+<code class="sig-name descname">Wedge</code><em class="property"> = &lt;Kyrios.Extend.Tools.interface.Adapter object&gt;</em><a class="headerlink" href="#Kyrios.Extend.Tools.interface.AdapterIndirect.Wedge" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.interface.Target">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.interface.</code><code class="sig-name descname">Target</code><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Target" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个适配模式中的目标类</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.interface.Target.function">
+<em class="property">abstract </em><code class="sig-name descname">function</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.interface.Target.function" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个目标类的抽象函数</p>
+</div></blockquote>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.state">
+<span id="kyrios-extend-tools-state-module"></span><h2>Kyrios.Extend.Tools.state module<a class="headerlink" href="#module-Kyrios.Extend.Tools.state" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id9">
+<h3>模块介绍<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h3>
+<p>这是一个算法应用的状态模块，主要用于组件监控。</p>
+</div>
+<div class="section" id="id10">
+<h3>功能<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h3>
+<blockquote>
+<div><p>设计模式：</p>
+<blockquote>
+<div><p>（1）监控模式</p>
+</div></blockquote>
+<p>功能：</p>
+<blockquote>
+<div><p>（1）观察者</p>
+<p>（2）被观察者</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="id11">
+<h3>类说明<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.state.</code><code class="sig-name descname">FiniteStateMachine</code><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#Kyrios.Extend.Tools.state.Observable" title="Kyrios.Extend.Tools.state.Observable"><code class="xref py py-class docutils literal notranslate"><span class="pre">Kyrios.Extend.Tools.state.Observable</span></code></a></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个模型监控器类，主要用于监控模型是否需要重新训练，该监控器采用有限状态机技术，调用transitions包,实现有限状态机的控制器，并将该类修改成执行器。</p>
+<p>关键技术：（1）有限状态机.功能：（1）监控器（2）控制器（3）执行器</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine.getIndex">
+<code class="sig-name descname">getIndex</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine.getIndex" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个获取当前指标的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>返回  </dt><dd><p>返回 (float)：指标</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine.setIndex">
+<code class="sig-name descname">setIndex</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">index</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine.setIndex" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个设置当前指标的方法，该输入主要从数据库中扫描得到</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：   </dt><dd><p>index (float)：指标</p>
+</dd>
+<dt>返回：</dt><dd><p>返回：无返回</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine.states">
+<code class="sig-name descname">states</code><em class="property"> = ['idle', 'actived', 'deactived']</em><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine.states" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py attribute">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine.transitions">
+<code class="sig-name descname">transitions</code><em class="property"> = [{'trigger': 'start', 'source': 'idle', 'dest': 'actived'}, {'trigger': 'restart', 'source': '*', 'dest': 'actived'}, {'trigger': 'stop', 'source': '*', 'dest': 'idle'}, {'trigger': 'done', 'source': 'actived', 'dest': 'deactived'}]</em><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine.transitions" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.FiniteStateMachine.update_mode">
+<code class="sig-name descname">update_mode</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">update_rule</span><span class="o">=</span><span class="default_value">'&gt;=0.6'</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.FiniteStateMachine.update_mode" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.state.Observable">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.state.</code><code class="sig-name descname">Observable</code><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observable" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个被观察者的基类，主要用于模型监控器的基类。功能：（1）添加观察者（2）删除观察者（3）依次运行观察者更新动作的方法</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.Observable.addObserver">
+<code class="sig-name descname">addObserver</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observer</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observable.addObserver" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个添加观察者对象的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：        </dt><dd><p>observer (object)：观察者对象</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.Observable.notifyObservers">
+<code class="sig-name descname">notifyObservers</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">object</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observable.notifyObservers" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个依次运行观察者更新动作的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>object (object)：占位对象</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.Observable.removeObserver">
+<code class="sig-name descname">removeObserver</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observer</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observable.removeObserver" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个删除观察者对象的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>observer (object)：观察者对象</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.state.Observer">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.state.</code><code class="sig-name descname">Observer</code><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observer" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个观察者的基类，主要用于更新模型监控器的状态</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.Observer.update">
+<em class="property">abstract </em><code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observable</span></em>, <em class="sig-param"><span class="n">object</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.Observer.update" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个更新状态的函数</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>obserable (object)：被观察者
+object (object)：占位对象</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.state.StateFSM">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.state.</code><code class="sig-name descname">StateFSM</code><a class="headerlink" href="#Kyrios.Extend.Tools.state.StateFSM" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个有限状态机挂载虚类</p>
+</div></blockquote>
+</dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.state.UpdateMode">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.state.</code><code class="sig-name descname">UpdateMode</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">assert_eval</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.UpdateMode" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<a class="reference internal" href="#Kyrios.Extend.Tools.state.Observer" title="Kyrios.Extend.Tools.state.Observer"><code class="xref py py-class docutils literal notranslate"><span class="pre">Kyrios.Extend.Tools.state.Observer</span></code></a></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个更新模型类，主要用于根据事件转换状态，有限状态机事件状态转换</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>start (str): idle-&gt;actived
+restart (str): <a href="#id12"><span class="problematic" id="id13">*</span></a>-&gt;actived
+stop (str): <a href="#id14"><span class="problematic" id="id15">*</span></a>-&gt;idle
+done (str)：actived-&gt;deactived</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.state.UpdateMode.update">
+<code class="sig-name descname">update</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">observable</span></em>, <em class="sig-param"><span class="n">object</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.state.UpdateMode.update" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个更新动作实现的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>observable (object)：被观察者对象
+object (object)：占位对象</p>
+</dd>
+<dt>返回：</dt><dd><p>返回：无返回</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.structure">
+<span id="kyrios-extend-tools-structure-module"></span><h2>Kyrios.Extend.Tools.structure module<a class="headerlink" href="#module-Kyrios.Extend.Tools.structure" title="永久链接至标题">¶</a></h2>
+<div class="section" id="id16">
+<h3>模块介绍<a class="headerlink" href="#id16" title="永久链接至标题">¶</a></h3>
+<p>这是一个算法应用组件结构模块，主要提供结构设计功能，包括特定的数据结构，主要采用技术为图论</p>
+<p>设计模式：</p>
+<blockquote>
+<div><p>（1）图论模式</p>
+</div></blockquote>
+<p>关键点：</p>
+<blockquote>
+<div><p>（1）结构设计</p>
+</div></blockquote>
+<p>主要功能：</p>
+<blockquote>
+<div><p>（1）结构设计</p>
+</div></blockquote>
+</div>
+<div class="section" id="id17">
+<h3>使用示例<a class="headerlink" href="#id17" title="永久链接至标题">¶</a></h3>
+</div>
+<div class="section" id="id18">
+<h3>类说明<a class="headerlink" href="#id18" title="永久链接至标题">¶</a></h3>
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.structure.StarAtlas">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.structure.</code><code class="sig-name descname">StarAtlas</code><a class="headerlink" href="#Kyrios.Extend.Tools.structure.StarAtlas" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<p>类介绍：</p>
+<blockquote>
+<div><p>这是一个结构描述类，主要使用图论来描述算法或节点结构，主要技术使用Networkx</p>
+</div></blockquote>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.structure.StarAtlas.create_graph">
+<code class="sig-name descname">create_graph</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.structure.StarAtlas.create_graph" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能:</p>
+<blockquote>
+<div><p>定义一个创建图的方法</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>无</p>
+</dd>
+<dt>返回：</dt><dd><p>graph (Object): 图对象</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.structure.StarAtlas.graph_algorithm">
+<code class="sig-name descname">graph_algorithm</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">algorithm</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.structure.StarAtlas.graph_algorithm" title="永久链接至目标">¶</a></dt>
+<dd><p>方法功能：</p>
+<blockquote>
+<div><p>定义一个图算法执行接口</p>
+</div></blockquote>
+<dl class="simple">
+<dt>参数：</dt><dd><p>algorithm (str)：算法名称</p>
+</dd>
+<dt>返回：</dt><dd><p>视情况而定</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools.tmp">
+<span id="kyrios-extend-tools-tmp-module"></span><h2>Kyrios.Extend.Tools.tmp module<a class="headerlink" href="#module-Kyrios.Extend.Tools.tmp" title="永久链接至标题">¶</a></h2>
+<dl class="py function">
+<dt id="Kyrios.Extend.Tools.tmp.set_age">
+<code class="sig-prename descclassname">Kyrios.Extend.Tools.tmp.</code><code class="sig-name descname">set_age</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">age</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.set_age" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="Kyrios.Extend.Tools.tmp.set_sex">
+<code class="sig-prename descclassname">Kyrios.Extend.Tools.tmp.</code><code class="sig-name descname">set_sex</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">sex</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.set_sex" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="Kyrios.Extend.Tools.tmp.set_test">
+<code class="sig-prename descclassname">Kyrios.Extend.Tools.tmp.</code><code class="sig-name descname">set_test</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">test</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.set_test" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py function">
+<dt id="Kyrios.Extend.Tools.tmp.set_value">
+<code class="sig-prename descclassname">Kyrios.Extend.Tools.tmp.</code><code class="sig-name descname">set_value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">self</span></em>, <em class="sig-param"><span class="n">value</span></em><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.set_value" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="py class">
+<dt id="Kyrios.Extend.Tools.tmp.test_source_target">
+<em class="property">class </em><code class="sig-prename descclassname">Kyrios.Extend.Tools.tmp.</code><code class="sig-name descname">test_source_target</code><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.test_source_target" title="永久链接至目标">¶</a></dt>
+<dd><p>基类：<code class="xref py py-class docutils literal notranslate"><span class="pre">object</span></code></p>
+<dl class="py method">
+<dt id="Kyrios.Extend.Tools.tmp.test_source_target.test">
+<code class="sig-name descname">test</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Kyrios.Extend.Tools.tmp.test_source_target.test" title="永久链接至目标">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-Kyrios.Extend.Tools">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-Kyrios.Extend.Tools" title="永久链接至标题">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Kyrios.Extend.Utils.html" class="btn btn-neutral float-right" title="Kyrios.Extend.Utils package" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Kyrios.Extend.Base.html" class="btn btn-neutral float-left" title="Kyrios.Extend.Base package" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; 版权所有 2021, shihua.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

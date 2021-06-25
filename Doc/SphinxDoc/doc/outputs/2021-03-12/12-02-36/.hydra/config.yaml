@@ -1,0 +1,19 @@
+db:
+  driver: mysql
+  user: omry
+  pass: secret
+algorithm:
+  import_packages:
+  - ai_1
+  - ai_2
+  function_list:
+  - test
+  - tmp
+  parameters:
+    test:
+      a: 1
+      b: 2
+    tmp: {}
+  result_list:
+  - test_result
+  - tmp_result
