@@ -34,7 +34,7 @@ Kyrios是一个算法应用运行时工具，主要包括设计、计算、存�
 + Kyrios采用Python开发，得益于Python良好的社区环境，安装支持Pythonic风格的各种管理器。
 ```
 pip install -i http://10.3.110.71:8080 --trusted-host 10.3.110.71 Kyrios
-
+```
 
 
 ## 快速指南
